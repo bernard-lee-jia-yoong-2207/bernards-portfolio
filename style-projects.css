@@ -1,3 +1,7 @@
+h1.page-title {
+    text-align:center;
+}
+
 #projects-banner {
     display: flex;
     flex-direction: column;
@@ -80,6 +84,8 @@ button.back-button:hover {
 
 iframe {
     border: 3px solid #ED6B2D;
+    display:block;
+    margin:auto;
 }
 
 .page-title {
