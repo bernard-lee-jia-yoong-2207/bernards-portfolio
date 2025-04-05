@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Lepak
+    </title>
+    
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style-projects.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body {background-color: #E8E1fd;
+                font-family: "Fraunces", sans-serif;}
+            p {margin:0.5em 0;}
+        </style>
+    </head>
+
+    <header>
+        <a href="index.htm">
+            <h3>Bernard Lee</h3>
+        </a>
+        <nav class="navigation">
+            <a href="about.htm">
+                About
+            </a>
+            <a class="active">
+                Projects
+            </a>
+            <a href="contact.htm">
+                Contact
+            </a>
+            <a href="process.htm">
+                Process
+            </a>
+        </nav>
+    </header>
+
+    <body id="lepak">
+        <button class="back-button" onclick="history.back()">&larr; Back</button>
+        <br>
+        <main>
+            <section class="title-banner">
+                <h1 class="page-title">Lepak</h1>
+                <div class="tag-container">
+                    <div class="tag">
+                        User Experience Research
+                    </div>
+                    <div class="tag">
+                        User Interface Design
+                    </div>
+                </div>
+            </section>
+            
+            <section class="key-visual" style="background-color:#fffbf1; padding:20px;">
+                <img src="Assets/Lepak/Lepak Key Visual.gif" style="display:block; margin:auto;" alt="Image showing three mobile mockups of Lepak">
+            </section>
+
+            <section class="content-section">
+                <h6 class="section-type">INSPIRATION</h6>
+                <p class="section-body">This project came during my short stint with a public relations agency, where a part of my job was to help brands spread the word 
+                    about their events, attractions or new openings. Being the one who directly liaised with media outlets and portals, I was surprised by the sheer number 
+                    of platforms available for Singaporeans just to find leisure activities.
+                    <br><br>
+                    More often than not, these platforms function as digital "noticeboards," displaying an overwhelming amount of information that required viewers to 
+                    carefully go through to pick and choose the information suitable for themselves. This issue also manifested itself when my girlfriend got frustrated 
+                    after spending hours looking for a suitable spot to hang out with her friend, to no avail.
+                    <br><br>
+                    With the advent of technology, I thought to myself—surely, there has to be an easier way for people to customise and find locations and activities 
+                    that are of interest to them? I quickly got to work designing Lepak, a platform that endeavours to make planning for a day out easy, for the already 
+                    overworked Singaporean.</p>
+            </section>
+
+            <section class="context">
+                <table>
+                    <tr>
+                        <td><strong>Timeline</strong></td>
+                        <td>October - November 2024 (6 weeks)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tools</strong></td>
+                        <td>Figma, Adobe Illustrator</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Role</strong></td>
+                        <td>Solo researcher, designer</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="content-section">
+                <h6 class="section-type">PROBLEM</h6>
+                <h2 class="section-highlight">Planning for a day out feels work-like</h2>
+                <p class="section-body">Singaporeans are characteristically overworked. Between juggling studies, work and chores, they barely have any time to relax, 
+                    let alone have a day out. But when they do want a day out, planning for it can be stressful and feel like they're doing more work rather than 
+                    relaxing.
+                </p>
+            </section>
+
+            <section class="content-section">
+                <hr>
+                <h6 class="section-type">SOLUTION</h6>
+                <section class="solution">
+                    <img src="Assets/Lepak/Lepak Demo 1.gif" alt="A short demo of Lepak's Onboarding process">
+                    <div style="margin-top:20px;">
+                        <h2 class="section-highlight">Customised experience</h2>
+                        <p>Personalise your experience by letting Lepak know your preferences for leisure activities:</p>
+                        <ul>
+                            <li>What do you consider cheap or pricey?</li>
+                            <li>How far are you willing to travel?</li>
+                            <li>What do you like doing?</li>
+                            <li>Any areas you particularly like to visit?</li>
+                        </ul>
+                    </div>
+                </section>
+                <br>
+                <section class="solution" style="flex-direction: row-reverse;">
+                    <img src="Assets/Lepak/Lepak Demo 2.gif" alt="A short demo of Lepak's Discover function">
+                    <div style="margin-top:20px;">
+                        <h2 class="section-highlight">Localised recommendations</h2>
+                        <p>Taking advantage of location services, Lepak prioritises recommendations near you so you can find somewhere to go, wherever you are.</p>
+                    </div>
+                </section>
+                <br>
+                <section class="solution">
+                    <img src="Assets/Lepak/Lepak Demo 3.gif" alt="A short demo of Lepak's Plan function">
+                    <div style="margin-top:20px;">
+                        <h2 class="section-highlight">Discover and share</h2>
+                        <p>Making plans with others? Create shared Lists for you and your friends to note down places you'd like to explore together!
+                            <br><br>
+                            Ready to head out? Make sure the trip makes it out of the chat by creating shared Trips!</p>
+                    </div>
+                </section>
+        </section>
+        
+        <section class="content-section">
+            <hr>
+            <h6 class="section-type">APPROACH</h6>
+            <div style="display: flex; justify-content: space-between; margin: 20px 0;">
+                <div style="display:flex; flex-direction: column;">
+                    <h5>01</h5>
+                    <a href="#empathise"><h2 class="section-highlight" id="lepak-nav">Empathise</h2></a>
+                    <p>Desktop Research<br>
+                    User Interviews</p>
+                </div>
+                <div style="display:flex; flex-direction: column;">
+                    <h5>02</h5>
+                    <a href="#define"><h2 class="section-highlight" id="lepak-nav">Define</h2></a>
+                    <p>Affinity Diagram<br>
+                    Personas<br>
+                    Storyboard</p>
+                </div>
+                <div style="display:flex; flex-direction: column;">
+                    <h5>03</h5>
+                    <a href="#design"><h2 class="section-highlight" id="lepak-nav">Design</h2></a>
+                    <p>Lo-fi Wireframes<br>
+                    Mid-fi Prototype<br>
+                    Hi-fi Prototype</p>
+                </div>
+                <div style="display:flex; flex-direction: column;">
+                    <h5>04</h5>
+                    <a href="#evaluate"><h2 class="section-highlight" id="lepak-nav">Evaluate</h2></a>
+                    <p>Wizard-of-Oz Testing<br>
+                    Heuristic Evaluation</p>
+                </div>
+            </div>
+            <p class="section-body">
+                I came up with the idea of Lepak, but I'm not designing the platform just for myself. Using a data-driven approach with a strong focus on the user, I embarked on the journey to design Lepak.
+                <br><br>
+                I first employed analytical methods to test my assumptions and hypotheses about Singaporeans' perception of leisure activities. Armed with user insights, I then defined a specific problem statement and other tools to aid my design process. Through usability testing, I gathered valuable user feedback that informed my iterative design. Follow along ⬇️</p>
+        </section>
+
+        <section class="content-section" id="empathise">
+            <hr>
+            <h6 class="section-type">EMPATHISE</h6>
+            <h2 class="section-highlight">Leisure activities are an essential part of Singaporeans' lives that have been overshadowed by the need to be constantly working.</h2>
+            <p class="section-body">
+                While I had anecdotal experience that planning a day out can be tiring and time-consuming, I wanted to make sure that I wasn't trapped in an echo chamber. To validate my assumption, I employed desktop research and user interviews to seek information directly from my target population, Singaporeans. The former allowed me to efficiently find macro and quantitative data and trends related to leisure activities while the latter was an opportunity to clarify and confirm my assumptions and elicit meaningful, personal and qualitative responses to support my design decisions.
+            </p>
+            <br>
+            <h6 class="section-type">DESKTOP RESEARCH</h6>
+            <p class="section-body" style="margin:0;">
+                My desktop research formed the basis of Lepak's design. <br><br>With some preliminary research, I knew that
+            </p>
+            <ul>
+                <li>Singapore is one of the most overworked populations in the world (<a href="https://www.instantoffices.com/blog/featured/most-overworked-apac-countries/" target="_blank" style="text-decoration: underline;">The Instant Group, 2022</a>)</li>
+                <li>Many grew up in an environment that glorified "hustle culture" (<a href="https://www.channelnewsasia.com/today/mental-health-matters/gen-zen-how-have-healthy-relationship-hustle-culture-4633501" target="_blank" style="text-decoration: underline;">Lee, 2023</a>)</li>
+                <li>But "work-life balance" is gaining popularity, especially among Gen Zs (<a href="https://www.straitstimes.com/singapore/what-is-the-point-singapore-has-more-quiet-quitters-than-global-average-survey-shows" target="_blank" style="text-decoration: underline;">The Straits Times, 2023</a>)</li>
+            </ul>
+            <p class="section-body" style="margin-bottom:0;">
+                Diving deeper into Lepak's central idea, leisure activities, I found that
+            </p>
+            <ul>
+                <li>Singapore has an abundance of entertainment and leisure activities (<a href="https://www.stb.gov.sg/content/stb/en/industries/industries-overview.html" target="_blank" style="text-decoration: underline;">Singapore Tourism Board, 2024</a>)</li>
+                <li>Singaporeans deem "leisure and social participation" essential (<a href="https://ink.library.smu.edu.sg/rosa_reports/25/" target="_blank" style="text-decoration: underline;">Straughan & Mathews, 2024</a>)</li>
+                <li>Popular leisure activities include dining out, watching a movie, exercising, visiting new cafes and many more (<a href="https://slh.com/top50simplepleasures" target="_blank" style="text-decoration: underline;">Small Luxury Hotels of the World, 2021</a>)</li>
+            </ul>
+            <p>This demonstrates Lepak's desirability and viability: the rise in Singaporeans' appreciation towards wellness and well-being points to the potential of a "wellness and leisure" market that caters to overworked Singaporeans, with solutions that can help them improve their work-life balance as they take much-needed time away from their day-to-day work.
+            </p>
+            <br>
+            <h6 class="section-type">USER INTERVIEWS</h6>
+            <p class="section-body" style="margin:0;">
+                To validate my assumptions about Singaporeans' perception towards leisure activities and further investigate their practices when planning leisure activities, I engaged three individuals via convenience sampling. I conducted one-on-one, semi-structured interviews with them, keeping in mind the goals of the interviews:
+            </p>
+            <ul>
+                <li>To understand Singaporeans' perception of leisure and work</li>
+                <li>To uncover Singaporeans' practices when planning or attending leisure activities</li>
+                <li>To define leisure for Lepak, given the term's broad and vague scope</li>
+                <li>To verify the desirability of the proposed function and features of Lepak</li>
+            </ul>
+        </section>
+
+        <section class="content-section" id="define">
+            <hr>
+            <h6 class="section-type">DEFINE</h6>
+            <h2 class="section-highlight">Planning for leisure activities can be a complex and time-consuming process that involves the use of multiple platforms</h2>
+            <p class="section-body">Given the semi-structured nature of the user interviews, I gathered a wide range of information. To make sense of user responses, I utilised FigJam to organise verbatim user statements into affinity diagrams. To do this, I employed axial and selective coding to group statements that relate to each other into categories and broad themes.
+            </p>
+            <br>
+            <h6 class="section-type">KEY INSIGHTS</h6>
+            <table>
+                <tr>
+                    <td>Multiple platforms</td>
+                    <td>Users utilise more than one platform when planning their leisure activities</td>
+                    <td>Examples include Instagram, TikTok, XiaoHongShu, Telegram and online listicles</td>
+                </tr>
+                <tr>
+                    <td>Decision-making mechanisms</td>
+                    <td>Two key mechanisms users engage with when planning are location and interest</td>
+                    <td>After the initial or most important activity, users usually look out for convenience and proximity</td>
+                </tr>
+                <tr>
+                    <td>Leisure is social</td>
+                    <td>Users almost always participated in leisure time with others, including partners, friends and family</td>
+                    <td>Hence, the planning of leisure activities can also involve more than one person</td>
+                </tr>
+                <tr>
+                    <td>Planning feels like work</td>
+                    <td>The complexity of planning leisure activities can feel work-like, which goes against the definition of leisure</td>
+                    <td>Planning leisure activities can thus add on to the stress that users already feel from their work/studies</td>
+                </tr>
+            </table>
+            <br>
+            <h6 class="section-type">PROBLEM STATEMENT, TARGET USER GROUP</h6>
+            <p class="section-body" style="margin:0;">
+                Consolidating the pain points identified from the empathising process, I crafted the following problem statement to guide the design of Lepak.
+            </p>
+            <h2 class="section-highlight">Outgoing Singaporean young adults aged 18 to 30 need a stress-free way to plan their leisure time and discover new leisure activities because planning ahead can feel work-like and stressful.</h2>
+            <p>
+                Singaporeans aged 18-30 are some of the most digitally connected generations and at least 95% of this age group uses the Internet to find information (Infocomm Media Development Authority, 2023).
+                <br><br>
+                They also make up a significant portion of Gen Zs who are relatively financially independent, given that they are over the minimum working age. This includes university students and working adults who are new to the workforce. As such, they are in control of how and where they should spend their leisure time, making them suitable for a tool that promotes leisure activities.
+            </p>
+            <br>
+            <h6 class="section-type">PERSONAS, STORYBOARD</h6>
+            <p class="section-body" style="margin:0;">
+                To make sure that key insights gleaned from the users continue to guide my design decisions, I crafted two personas and a storyboard that humanised the target user group.
+            </p>
+            <br>
+            <h6 class="section-type">FEATURES</h6>
+            <p class="section-body" style="margin:0;">
+                At this point, I am finally able to determine the three main features of Lepak:
+            </p>
+            <div style="display: flex; color: #ED6B2D; gap: 10px; margin: 10px 0;">
+                <div style="text-align: center; border: 1px solid #ED6B2D; padding: 20px; border-radius: 15px;">
+                    <h3>Browse and Discover</h3>
+                    <p style="margin:0; color:#194027;">Find exciting hangout spots or leisure activities you like</p>
+                </div>
+                <div style="text-align: center; border: 1px solid #ED6B2D; padding: 20px; border-radius: 15px;">
+                    <h3>Plan and Share</h3>
+                    <p style="margin:0; color:#194027;">Make shareable Lists and Trips to plan your hangouts</p>
+                </div>
+                <div style="text-align: center; border: 1px solid #ED6B2D; padding: 20px; border-radius: 15px;">
+                    <h3>Community sharing</h3>
+                    <p style="margin:0; color:#194027;">Find exciting hangout spots or leisure activities you like</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section" id="design-and-eval">
+            <hr>
+            <h6 class="section-type">DESIGN & EVALUATION</h6>
+            <p class="section-body">
+                Even though the time frame of this project was short, an iterative design approach was taken to ensure that the outcome reflects user needs and adheres to usability guidelines. Through two rounds of prototype testing, I iterated my design through three levels of fidelity from low to high.
+            </p>
+            <img src="Assets/Lepak/Iterative Design Process.jpg" style="display:block; margin:auto;">
+            <br>
+            <h6 class="section-type" id="design">LO-FI WIREFRAMES</h6>
+            <p class="section-body">I began the design process by creating five sets of wireframes that would demonstrate the function and features of Lepak. On top of the screens for the three main features, I also created wireframes for the onboarding process and account settings. Given the significance of personalisation in the proposed solution, the onboarding process and personalisation settings are essential to demonstrate the concept.
+            </p>
+            <br>
+            <h6 class="section-type" id="evaluate">WIZARD-OF-OZ TESTING</h6>
+            <p class="section-body">
+                With the set of lo-fi wireframes, I conducted a usability test session with three users, using the wizard-of-oz method to simulate interactions with the design. To do this, I made use of Figma's Mirror function: users are shown the design on a mobile phone while I control the display from my laptop.
+                <br><br>
+                I gave my testers a set of tasks that corresponded to the main functionalities of the solution. I audio-recorded the sessions to capture valuable user responses and feedback when interacting with the prototype. These responses were again organised into an affinity diagram to identify recurring themes.
+                <br><br>
+                The low fidelity wireframes were effective in demonstrating the concept of Lepak, but many aspects were still too vague for the users. In particular, the layout, terms used and features of the main functionalities needed much improvement. I address these in my mid-fidelity prototype, which showcased more precise language, elaborate layouts and incorporated some interactions.
+            </p>
+            <br>
+            <h6 class="section-type">MID-FI PROTOTYPES</h6>
+            <p class="section-body" style="margin:0;">
+                Given that the idea of leisure is relatively vague, the concepts and language used in my design were understood differently by users. Thus, I placed more emphasis at this stage on improving these aspects before incorporating more visual design into my prototype. With their feedback, I made several key improvements.
+            </p>
+            <ol>
+                <li><strong>Clearer language and prompts</strong>: Some of the terms used like "neighbourhood" and "lists" were interpreted differently by every user. Changing to terms recommended by the users and including prompts to explain certain terms would enhance the user's experience.</li>
+                <li><strong>Cleaner interface</strong>: A few of the key screens proved too cluttered because of the amount of information cramped within one frame. Removing unnecessary information helped to clean up the screens and reduce the user's mental load.</li>
+                <li><strong>More precise customisation</strong>: The meaning of leisure differs slightly from person to person, the personalisation process is therefore important to make the functions of Lepak more closely resemble a user's mental model.</li>
+            </ol>
+            <br>
+            <h6 class="section-type">HEURISTIC EVALUATION</h6>
+            <p class="section-body">
+                Now that the fundamental features and interactions are finalised, the next stage is to incorporate more visual design. To ensure that the final design adheres to UI/UX design guidelines, I conducted a heuristic evaluation of my mid-fidelity prototype using Nielsen's ten heuristics. 
+                <br><br>
+                I reviewed each screen of the prototype one by one to assess whether any design components violate any of Nielsen's heuristics. All violations are documented in a table with the following headers. I included severity ratings for each violation, which were evaluated using the violation's impact, frequency and persistence. This helped in prioritising which changes have to be made.
+                <br><br>
+                The low fidelity wireframes were effective in demonstrating the concept of Lepak, but many aspects were still too vague for the users. In particular, the layout, terms used and features of the main functionalities needed much improvement. I address these in my mid-fidelity prototype, which showcased more precise language, elaborate layouts and incorporated some interactions.
+            </p>
+            <br>
+            <h6 class="section-type">HI-FI PROTOTYPE</h6>
+            <p class="section-body">
+                With that, I went on to create a hi-fi prototype of Lepak that showcases the solution's key functionalities, interactions and visual design. Here, I employed scenario prototyping to ensure that the end product at this stage could effectively demonstrate how Lepak could help users plan their leisure activities. A few key improvements are as follows:
+            </p>
+        </section>
+        <section class="content-section" id="interactive">
+            <h6 class="section-type">INTERACTIVE PROTOTYPE</h6>
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); display:block; margin:auto;" width="350" height="600" src="https://embed.figma.com/proto/gSSQbZsSSevF1VRCpsA5Fg/highfi-prototype?content-scaling=fixed&kind=proto&node-id=230-3886&page-id=218%3A3862&scaling=scale-down&starting-point-node-id=230%3A3886&embed-host=share" allowfullscreen></iframe>
+            <br>
+            <div id="externals">
+                <a href="https://www.figma.com/design/gSSQbZsSSevF1VRCpsA5Fg/highfi-prototype?node-id=218-3862&t=c2hKWrWItiVETq6l-1" target="_blank"><button>Figma working file<i class="fa fa-external-link" style="padding-top: 3px;"></i></button></a>
+                <a href="https://docs.google.com/document/d/1GU2Nnq8euSYB1WfjCOr58H0uI4SCu73azq6ZFIyje7Y/edit?usp=sharing" target="_blank"><button>Full documentation <i class="fa fa-external-link" style="padding-top: 3px;"></i></button></a>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <hr>
+            <h6 class="section-type">REFLECTION</h6>
+            <h2 class="section-highlight">A holistic design solution is data-driven and based on robust user research via various sources.</h2>
+            <p class="section-body">
+            A holistic design solution is data-driven and based on robust user research via various sources.
+            This was by far the most rigorous design process that I completed by myself, and I am extremely proud of what I came up with! It was rewarding to be able to propose a solution to a problem that is extremely relevant to me and even more so because I learnt so much about interaction design.
+            <br><br>
+            Key insights and takeaways:
+            </p>
+            <ol>
+                <li><strong>User engagement is indispensable when designing for the masses.</strong>A product is as good as its effectiveness and usability. 
+                    Since the idea came from my personal anecdotal experience, it was initially daunting to pitch the idea as a product. 
+                    I was worried that I had made up the problem space and others would not see a point in designing Lepak. 
+                    To prove its worth, I placed particular emphasis in the emphasis phase and conducted extensive user research to demonstrate Lepak's potential as a 
+                    product. When designing the interfaces, I made sure to carry out user testing sessions to test my design's usability and iterated accordingly. 
+                    While the final prototype is far from ready to be developed, I've learnt through this experience that without engaging with users via user research 
+                    to uncover pain points and user evaluation to enhance usability, a product will lack desirability and viability.</li>
+                <li><strong>You don't (always) have to listen to your users.</strong>: Especially when they give vague or conflicting feedback! 
+                    Given the broad and informal scope of "leisure," it was difficult to decide on the language to be used in the product since most terms are 
+                    interpretive. For instance, while I first thought that "neighbourhood" would be suitable to describe general districts and areas in Singapore, 
+                    my users interpreted the term differently. One understood it as residential areas while another thought neighbourhoods are too small to be 
+                    meaningfully explored. This prompted me to rethink the language used in my prototype and considered several recommendations given by my users. 
+                    But I soon realised that it is impossible to please every user and a balance had to be striked to balance user feedback and my judgment. 
+                    While my user's feedback were valuable, I decided to only change certain terms while keeping others the same. To prevent misunderstanding, 
+                    I added in-app explanations.</li>
+                <li><strong>Iterate, iterate and iterate for a better design.</strong>With every iteration during this project, I had a clearer idea of how to design 
+                    Lepak thanks to the user feedback and evaluation. While I was only able to iterate two times during the stipulated time frame of the project, 
+                    I would've loved to consult my users for at least one more time to test the usability of my final hi-fi prototype.</li>
+                <li><strong>The intricacies of mobile interaction design.</strong>While I have done similar projects before, the focus on mobile interactions 
+                    introduced me to various mobile design principles, including comfort of interaction, the importance of content management and the consideration 
+                    of the user's environment during an interaction.</li>
+            </ol>
+            <p class="section-body">If the opportunity arises, I would be more than happy to continue the project and improve its design. For the time being, thanks for coming on this journey with me. See you again soon!
+            </p>
+        </main>
+    </body>
+
+    <footer>
+        <div id="footer-left">
+            <h2>Bernard Lee</h2>
+            <h6>Visual Communication | UI/UX | Photography | Videography</h6>
+            <div id="socials-link">
+                <a href="https://www.linkedin.com/in/bernardljy" target="_blank"><img src="Assets/LinkedIn Icon.png"></a>
+                <a href="https://www.instagram.com/bernard.ljy/" target="_blank"><img src="Assets/Instagram Icon.png"></a>
+            </div>
+        </div>
+        <div id="footer-right">
+            <h3>Contact</h2>
+            <h6><a href="mailto:bernardljy2002@gmail.com">bernardljy2002@gmail.com</a>
+            <h6>+6012 667 6961 (MY)</h6>
+            <h6>+65 9696 5375 (SG)</h6>
+        </div>
+    </footer>
+</html>

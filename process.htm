@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Process
+    </title>
+    
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style-process.css">
+    </head>
+
+    <header>
+        <a href="index.htm"><h3>Bernard Lee</h3></a>
+        <nav class="navigation">
+            <a href="about.htm">
+                About
+            </a>
+            <a href="projects.htm">
+                Projects
+            </a>
+            <a href="contact.htm">
+                Contact
+            </a>
+            <a class="active">
+                Process
+            </a>
+        </nav>
+    </header>
+
+    <body>
+        <section class="content-section" id="process-intro">
+            <p>Through the course CCT260: Web Development and Design I, I've had the opporutnity to build my very own portfolio from scratch using HTML and CSS. 
+                Since I already have an <a href="https://bernardljy2002.wixsite.com/portfolio/"><u>existing portfolio</u></a> that is currently hosted on Wix, I decided to 
+                recreate it via this assignment. Rather than crafting a whole new design for this assignment, I thought that this would be the most efficient method 
+                while retaining the online presence that I've already established thus far in my academic and professional career. 
+                I do hope to continue developing this design beyond the class and have it replace the Wix-hosted site.
+                In this page, I document my processes and reflect on my growth in web development and design.
+            </p>
+        </section>
+        <section id="process-banner">
+            <h6>On this page:</h6>
+            <section id="process-content">
+                    <a href="#design-inspiration"><h3>Design Inspiration</h3></a>
+                    <a href="#developing-the-website"><h3>Developing the Website</h3></a>
+                    <a href="#information-architecture"><h3>Information Architecture</h3></a>
+                    <a href="#accessibility"><h3>Accessibility</h3></a>
+                    <a href="#reflection"><h3>Reflection</h3></a>
+                    <a href="#references"><h3>References</h3></a>
+                </section>
+        </section>
+        <section class="content-section" id="design-inspiration">
+            <h2>Design Inspiration: Simple but Playful</h2>
+            <p>The design of the website is an attempt to playfully present an interface that is simple in design. A key aspect of web design is to create interfaces 
+                that are clean and simple so that they're easily understood by users. Nielsen's 8th heuristic: Aesthetic and Minimalist Design 
+                is often quoted for this, emphasising that user interfaces should minimise distractions and keep the focus on the essentials 
+                (<a href="https://www.nngroup.com/articles/ten-usability-heuristics/"><u>Nielsen, 1994</u></a>). 
+                <br><br>
+                While I always try to keep my designs simple, I wanted to showcase my portfolio in a more creative manner. I decided to make use of 
+                bright colours like <span style="background-color: #EFF483;">light green</span> and <span style="background-color: #ED6B2D; color:white;">orange</span> 
+                to capture attention, and combine a <strong>serif font</strong> with a<span style="font-family:IBM Plex Mono, serif"> mono font </span>to create contrast. The website also has 
+                an overarching motif of rectangular shapes that can be found in the presentation of my projects and global navigation.
+            </p>
+        </section>
+        <section class="content-section" id="developing-the-website">
+            <h2>Developing the website</h2>
+            <p>This was a simple website developed using vanilla HTML and CSS. Each page is built in a separate HTML page, which is then cross-linked via the navigation 
+                bar present at the top of each page. Throughout the site, I attempted to keep my code consistent and easily understandable. To keep the HTML markups 
+                organised, I made good use of<span style="font-family:IBM Plex Mono, serif"> classes </span>and<span style="font-family:IBM Plex Mono, serif"> ids </span>. 
+                Every part that would have similar functions and characteristics are given the same class, and ids are further used to differentiate individual elements 
+                in a class if necessary.
+            </p>
+            <figure>
+                <img src="Assets/Process/About content section screenshot.jpg" alt="screenshot of About page">
+                <img src="Assets/Process/HTML use of class and id.jpg" alt="an example of the use of class and id in HTML">
+            </figure>
+            <figcaption>The "About" page consists of sections formatted similarly using the class "content-section" while each section is identified with a unique id.</figcaption>
+            <p>
+                In terms of CSS, I utilised in-line, internal and external CSS for various purposes. While the bulk of the design relies on the four external CSS 
+                stylesheets (main, about, projects and process), I used in-line CSS for one-off styles that would not have to be replicated elsewhere in the site. This 
+                way, I could keep the codes cleaner without having to create excess ids to be referenced in an external CSS. I used internal CSS for individual project 
+                pages to differentiate between the background colour of the main project page and each individual project.
+            </p>
+            <figure>
+                <img src="Assets/Process/All projects screenshot.jpg" alt="screenshot of All projects page">
+                <img src="Assets/Process/Lepak screenshot.jpg" alt="screenshot of Lepak project page">
+            </figure>
+            <figcaption>The main project page has a green background while the individual project pages have a purple background.</figcaption>
+            <p>
+                I also made good use of the flexbox function offered by CSS to easily align items that are presented in groups. For instance, my navigation bar on 
+                the top of this document is made up of flex items.
+            </p>
+            <figure>
+                <img src="Assets/Process/Navigation screenshot.jpg" alt="screenshot of Navigation bar">
+                <img src="Assets/Process/Use of flex.jpg" alt="an example of the use of flexbox">
+            </figure>
+            <figcaption>The navigation bar consists of flex items.</figcaption>
+        </section>
+        <section class="content-section" id="information-architecture">
+            <h2>Information Architecture</h2>
+            <p>Information in my website is organised around simplicity and Dan Brown's Principles of Information Architecture in mind. All content are organised 
+                with the assumption that the viewer will be a potential employer who would like to learn more about my background and experiences. As such, the 
+                information architecture prioritises the "About" and "Projects" pages in the global navigation. I also incorporated many forms of contextual navigation 
+                in the form of associative links and a footer to help the viewer find information about me quicker. These are summarised in the following tree diagram.
+            </p>
+            <figure>
+                <img src="Assets/Process/IA Tree Diagram.jpg" alt="tree diagram">
+            </figure>
+            <figcaption>Tree diagram illustrating the information architecture of the current site.</figcaption>
+            <p>I kept in mind the following principles (<a href="https://www.designprinciplesftw.com/collections/eight-principles-of-information-architecture"><u>Brown, 2016</u></a>):
+                <br> 1. <strong>Principle of Choices.</strong> Offering meaningful choices help viewers find the information they need faster. In my "Projects" page, I 
+                include a local navigation that helps a potential employer find the project relevant to the job.
+            </p>
+            <figure>
+                <img src="Assets/Process/Example for principle of choices.jpg" alt="Local navigation in the Projects page">
+            </figure>
+            <figcaption>Local navigation helps the viewer find the information most relevant to them.</figcaption>
+            <p>2. <strong>Principle of Disclosure. </strong> Showing a little information can help viewers understand what they can find when they dig deeper. In my home 
+                page, I provided quick links to help a potential employer understand what kinds of projects they can expect to see in this portfolio.
+            </p>
+            <figure>
+                <img src="Assets/Process/Example for principle of disclosure.jpg" alt="Preview of types of project">
+            </figure>
+            <figcaption>In the home page, I disclose what kinds of projects I showcase in the portfolio.</figcaption>
+            <p>3. <strong>Principle of Exemplars.</strong> Showing examples help viewers understand the kinds of content on a site. In the "Project Highlights" section, 
+                I showcase two examples of projects, selected from the full list of projects in my "Project" page.
+            </p>
+            <figure>
+                <img src="Assets/Process/Example for principle of exemplars.jpg" alt="Examples of project">
+            </figure>
+            <figcaption>I show two example projects in my home page.</figcaption>
+        </section>
+        <section class="content-section" id="accessibility">
+            <h2>Accessibility</h2>
+            <p>As far as possible, I made the portfolio easily usable for individuals with visual impairment and users of screen readers.</p>
+            <h3>Colour Contrast</h3>
+            <p>
+                I treaded carefully in this section as I knew that some of the colours chosen (bright green, orange) are adventurous and may prove to be difficult to read in certain circumstances. 
+                To ensure colour contrast, I prioritised the use of <span style="color:white; background-color: #194027;">dark green</span> as foreground with the <span style="background-color:#EFF483">bright green</span> as background.
+                While my initial design uses <span style="color:white; background-color: #ED6B2D;">orange</span> a lot more extensively, I toned it down in the current site to ensure colour contrast. In the current site, orange 
+                is used as highlights for crucial information.</p>
+            <figure>
+                <img src="Assets/Process/Wix portfolio colour contrast.jpg" alt="Site with orange used on bright green">
+                <img src="Assets/Process/Current portfolio colour contrast.jpg" alt="Site with dark green used on bright green">
+            </figure>
+            <figcaption>Left: My initial website uses orange as foreground.<br>Right: The current website switches most orange to dark green.</figcaption>
+            <p>
+                All foreground-background colour combinations are tested using the WebAIM Contrast Checker to ensure that there is sufficient contrast and enhance readability, 
+                with the exception of the use of orange in large texts in certain project pages.
+            </p>
+            <figure>
+                <img src="Assets/Process/Example of using orange in large text.jpg" alt="Use of orange on white" style="border: 1px solid #194027;">
+                <img src="Assets/Process/Orange on white colour contrast check.jpg" alt="Orange on white colour contrast check" style="border: 1px solid #194027;">
+            </figure>
+            <figcaption>I stuck with the use of the orange colour on white since it is consistent with the overall design and passes the check for use in large texts.</figcaption>
+            <br>
+            <h3>Semantic HTML</h3>
+            <p style="margin-bottom:0;">As much as possible, I used semantic HTML in my code to aid the users of a screen reader to interpret the website. This includes the following:</p>
+            <ul style="margin:0;">
+                <li><code>section</code></li>
+                <li><code>article</code></li>
+                <li><code>main</code></li>
+                <li><code>header</code></li>
+                <li><code>footer</code></li>
+                <li><code>figure</code></li>
+                <li><code>figcaption</code></li>
+            </ul>
+            <br>
+            <h3>Alt Text</h3>
+            <p>All images in this site are given alternative texts, which will display when the image is unavailable.</p>
+        </section>
+        <section class="content-section" id="reflection">
+            <h2>Reflection and Conclusion</h2>
+            <p>Overall, this has been an enjoyable course and project as it allowed me to recreate my portfolio from scratch. While I've briefly learnt HTML and CSS before, 
+                I'm glad that I opted to take this course as it was a good opportunity for me to refresh my knowledge and put it to good practice by building a local 
+                website from scratch. I especially appreciated being able to slowly build up the site via the weekly lab activities, as it broke down the complicated process 
+                of building a website from scratch into small, actionable steps that were not intimidating to execute.
+                <br><br>
+                Besides, I really appreciated that accessibility plays an important part in the course. When I learnt web development in the past, accessible coding 
+                was almost never included in the syallbi. I've been able to learn about how to make my source code and designs more accessible for anyone who may 
+                require alternative methods of accessing the website. In this website, I've tried my best to make my codes accessible for users with visual impairment, 
+                but I acknowledge that there is still much room for improvement, especially with the way that certain sections like buttons and navigation bars are structured.
+                <br><br>
+                Moving forward, I do hope to continue refining and expanding this website by introducing responsiveness to different viewport sizes as well as publishing it 
+                onto the Internet for easier access. I'd also like to improve the website's accessibility.
+            </p>
+        </section>
+        <section class="content-section" id="references">
+            <h2>References</h2>
+            <p>Brown, D. (2016, May 25). <em>Eight Principles of Information Architecture | Design Principles FTW.</em> Design Principles FTW.<br><a href="https://www.designprinciplesftw.com/collections/eight-principles-of-information-architecture" target="_blank"><u>www.designprinciplesftw.com. https://www.designprinciplesftw.com/collections/eight-principles-of-information-architecture</u></a></p>
+            <p>Nielsen, J. (1994, April 24). <em>10 Heuristics for User Interface Design.</em> Nielsen Norman Group.<br><a href="https://www.nngroup.com/articles/ten-usability-heuristics/" target="_blank"><u>https://www.nngroup.com/articles/ten-usability-heuristics/</u></a></p>
+        </section>
+
+        <footer>
+            <div id="footer-left">
+                <h2>Bernard Lee</h2>
+                <h6>Visual Communication | UI/UX | Photography | Videography</h6>
+                <div id="socials-link">
+                    <a href="https://www.linkedin.com/in/bernardljy" target="_blank"><img src="Assets/LinkedIn Icon.png"></a>
+                    <a href="https://www.instagram.com/bernard.ljy/" target="_blank"><img src="Assets/Instagram Icon.png"></a>
+                </div>
+            </div>
+            <div id="footer-right">
+                <h3>Contact</h2>
+                <h6><a href="mailto:bernardljy2002@gmail.com">bernardljy2002@gmail.com</a>
+                <h6>+6012 667 6961 (MY)</h6>
+                <h6>+65 9696 5375 (SG)</h6>
+            </div>
+        </footer>
+
+    </body>
+</html>

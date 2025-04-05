@@ -1,0 +1,96 @@
+body {
+    font-family: "Fraunces", sans-serif;
+}
+
+header {
+    font-family: "IBM Plex Mono", serif;
+}
+
+#about-banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background: #194027;
+    color: #EFF483;
+    padding: 30px 5%;
+}
+
+#about-content {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    width: 400px;
+    height: 90px;
+    border-left: 4px solid #E8E1fd;
+    padding-left: 10px;
+    color:#E8E1fd;
+}
+
+#about-content h3 {
+    font-weight: 400;
+}
+
+#about-content h3:hover {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.content-section {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 10%;
+    color:#194027
+}
+
+#about-experience, #about-languages {
+    background-color: #194027;
+    color:#EFF483;
+}
+
+ul, tr td:nth-child(n+2) {
+    font-family: "Fraunces", sans-serif;
+    font-size: 20px;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px;
+}
+
+#about-skills table {
+    border-collapse: collapse;
+    width: 100%;
+    color:#194027;
+}
+
+td {
+    padding: 15px 15px 15px 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+#about-skills tr:nth-child(n+2) {
+    border-top: 1px solid #194027;
+}
+
+#about-skills tr td:nth-child(n+2) {
+    line-height: 150%;
+}
+
+#about-skills tr td:nth-child(1), #about-languages tr td:nth-child(1) {
+    width: 35%;
+}
+
+#about-languages table {
+    border-collapse: collapse;
+    width: 100%;
+    color:#EFF483;
+}
+
+#about-languages tr:nth-child(n+2) {
+    border-top: 1px solid #EFF483;
+}

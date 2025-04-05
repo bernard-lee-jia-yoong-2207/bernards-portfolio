@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Contact Bernard
+    </title>
+    
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style-about.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            #socials button{
+                font-family: "Fraunces", sans-serif;
+                font-size: 20px;
+                color:#194027;
+                border: 1px solid #194027;
+                padding: 10px;
+                background-color: transparent;
+            }
+
+            #socials button:hover, #socials button:hover i {
+                color: #194027;
+                text-decoration: none;
+                background-color: #FFF6ED;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <header>
+        <a href="index.htm">
+            <h3>Bernard Lee</h3>
+        </a>
+        <nav class="navigation">
+            <a href="about.htm">
+                About
+            </a>
+            <a href="projects.htm">
+                Projects
+            </a>
+            <a class="active">
+                Contact
+            </a>
+            <a href="process.htm">
+                Process
+            </a>
+        </nav>
+    </header>
+
+    <body>
+        <main>
+            <section id="contact-form">
+                <h3>Get in touch!</h3>
+                <form action="/action_page.php">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email">
+                
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone">
+        
+                    <label for="message">Message</label>
+                    <input type="text" id="message" name="message">        
+                    
+                    <input type="submit" value="SEND">
+                </form>
+            </section>
+            <br>
+            <section id="socials">
+                <h2 style="text-align:center;">Follow my socials!</h2>
+                <br>
+                <div style="display: flex; gap: 20px; justify-content: center;">
+                    <a href="https://www.linkedin.com/in/bernardljy" target="_blank"><button>LinkedIn <i class="fa fa-external-link" style="padding-top: 3px;"></i></button></a>
+                    <a href="https://www.instagram.com/bernard.ljy/" target="_blank"><button>Instagram <i class="fa fa-external-link" style="padding-top: 3px;"></i></button></a>
+                </div>
+            </section>
+        </main>
+
+        <section id="embedded-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5783.594916482354!2d-79.66525902434871!3d43.54826375921237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b43e3135af203%3A0x713c168866b9f492!2sUniversity%20of%20Toronto%20Mississauga!5e0!3m2!1sen!2sca!4v1742189213786!5m2!1sen!2sca" width="80%" height="525" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        
+    </body>
+
+    <footer>
+        <div id="footer-left">
+            <h2>Bernard Lee</h2>
+            <h6>Visual Communication | UI/UX | Photography | Videography</h6>
+            <div id="socials-link">
+                <a href="https://www.linkedin.com/in/bernardljy" target="_blank"><img src="Assets/LinkedIn Icon.png"></a>
+                <a href="https://www.instagram.com/bernard.ljy/" target="_blank"><img src="Assets/Instagram Icon.png"></a>
+            </div>
+        </div>
+        <div id="footer-right">
+            <h3>Contact</h2>
+            <h6><a href="mailto:bernardljy2002@gmail.com">bernardljy2002@gmail.com</a>
+            <h6>+6012 667 6961 (MY)</h6>
+            <h6>+65 9696 5375 (SG)</h6>
+        </div>
+    </footer>
+</html>

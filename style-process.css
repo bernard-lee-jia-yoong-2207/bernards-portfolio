@@ -1,0 +1,79 @@
+.content-section {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 10%;
+    color:#194027;
+    line-height: 150%;
+}
+
+body {
+    font-family: "Fraunces", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background-color:white;
+}
+
+#process-intro > p > a:hover {
+    font-style:italic;
+}
+
+figure {
+    margin:0;
+    display:flex;
+    width:100%;
+    gap: 10px;
+    justify-content: center;
+}
+
+figure img {
+    min-width:0;
+    min-height:0;
+    max-height: 400px;
+    align-self: center;
+}
+
+figcaption {
+    margin:auto;
+    font-size: 16px;
+    margin-top: 5px;
+    font-style: italic;
+    text-align:center;
+}
+
+#process-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color:#194027;
+    padding: 30px 10%;
+    color: #EFF483;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+#process-content {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 40px;
+    row-gap:15px;
+    color: #E8E1fd;
+    width:100%;
+    flex-wrap: wrap;
+    border-left: 4px solid #E8E1fd;
+    padding-left: 10px;
+}
+
+#process-content h3 {
+    font-weight: 400;
+}
+
+#process-content h3:hover {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#references p {
+    text-indent: -48px;
+    padding-left: 48px;
+}
